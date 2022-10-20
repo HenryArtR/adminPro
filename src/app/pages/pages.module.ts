@@ -10,7 +10,6 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
-import { NgChartsModule } from 'ng2-charts';
 
 
 
@@ -32,7 +31,6 @@ import { NgChartsModule } from 'ng2-charts';
     CommonModule,
     SharedModule,
     RouterModule,
-    NgChartsModule,
     ComponentsModule
   ]
 })
